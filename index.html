@@ -2,7 +2,7 @@
 	<head>
 		<title></title>
 		<style>
-			.what {
+			.butt {
 				background-color: #305B90;
   				border: none;
   				border-radius: 5px;
@@ -13,14 +13,25 @@
 				display: inline-block;
 				font-size: 16px;
 			}
+			#butttoo {
+				background-color: #07639c;
+  				border: none;
+  				border-radius: 5px;
+  				color: white;
+  				padding: 10px 25px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+			}	
 			.navbar {
 			  	background-color: white;
-			  	opacity: .8;
+			  	opacity: .9;
 			  	position: fixed;
 			  	overflow: visible;
 			  	bottom: 0;
 			  	width: 100%;
-			  	height: 10%;
+			  	height: 7%;
 			  	box-shadow: 10px 10px 15px 5px #222;
 			}
 			.footer{
@@ -44,7 +55,10 @@
 				margin: 0;
 			}
 			#writing {
-				margin: 10% auto;
+				margin: auto;
+			}
+			.imgwidth{
+				width:45px;
 			}
 		</style>
 	</head>
@@ -58,30 +72,40 @@
 				<li>Log In</li>
 			</ul>
 		</div>
-		<hr style="clear: both;">
-		<div>
-			<img class="floatL" style="width:67%;margin-right: 5%" src="zachary-goldberg-graduation.jpg" />
-		</div>
-		<div id="writing">
-			<h1>ZACHARY GOLDBERG</h1>
-			<h2>Adjunct Professor, ACC<br>
-				Inventive Academy, Student
-			</h2>
-			<div>
-				<a class="what" href="https://google.com">
-					Click for resume
-				</a>
+		<div style="clear: both;"></div>
+			<div class="floatL" style="width:67%;">
+				<img style="width:100%;" src="zachary-goldberg-graduation.jpg" />
 			</div>
-			<p>
-				Shall I compare thee to a summers day<br>
-				Thou art more lovely and more temperate<br>
-				Rough winds do shake the darling buts of may<br>
-				And summers lease hath all too short a date<br>
-				Sometimes too hot the eye of heaven shines<br>
-			</p>
-		</div>
+		<div class="floatL">	
+			<div id="writing">
+				<h1>ZACHARY GOLDBERG</h1>
+				<h2>Adjunct Professor, ACC<br>
+					Inventive Academy, Student
+				</h2>
+				<div>
+					<a class="butt" href="https://google.com">
+						Click for resume
+					</a>
+				</div>
+				<p>
+					Shall I compare thee to a summers day<br>
+					Thou art more lovely and more temperate<br>
+					Rough winds do shake the darling buts of may<br>
+					And summers lease hath all too short a date<br>
+					Sometimes too hot the eye of heaven shines<br>
+				</p>
+				<div>
+					<img class="imgwidth" src="icon-twitter-gray.png">
+					<img class="imgwidth" src="icon-facebook-gray.png">
+					<img class="imgwidth" src="icon-linkedin-gray.png">
+					<img class="imgwidth" src="icon-github-gray.png">
+			</div>
+		</div>	
 		<div class="navbar">
-			<h2 style="color: black; opacity: 1;">Get a page and a domain with your name.</h2>
+			<p class="floatL" style="color: black; opacity: 1;">Get a page and a domain with your name. &nbsp &nbsp</p>
+			<a id="butttoo" href="https://google.com">
+				Get started for free
+			</a>
 		</div>
 	</body>
 </html>
